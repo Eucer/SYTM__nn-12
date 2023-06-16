@@ -1,0 +1,5 @@
+fastapi
+pandas
+pymongo
+scikit-learn
+uvicorn
