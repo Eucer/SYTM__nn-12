@@ -125,9 +125,7 @@ def recommend_products_based_on_last_viewed(user_id, limit=25):
 
 @app.get("/", tags=["Root"])
 async def read_root():
-    return {
-        "message": "Welcome to my notes application, use the /docs route to proceed"
-    }
+    return {"message": "Welcome "}
 
 
 @app.get("/recommend_products/{product_id}")
